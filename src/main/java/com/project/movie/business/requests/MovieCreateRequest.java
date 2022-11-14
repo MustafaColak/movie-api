@@ -14,4 +14,5 @@ public class MovieCreateRequest {
     private int releaseYear;
     private List<Category> categories;
     private Long directorId;
+    private List<Long> actorIds;
 }
